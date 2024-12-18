@@ -1,11 +1,5 @@
 import styles from "./TaskList.module.css";
 
-interface Task {
-  id: number;
-  text: string;
-  isChecked: boolean;
-}
-
 interface TaskListProps {
   tasks: number;
   doneTasks: number;
